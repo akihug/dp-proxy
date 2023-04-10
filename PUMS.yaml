@@ -1,0 +1,15 @@
+"":
+  PUMS:
+      PUMS:
+          row_privacy: True
+          max_ids: 1
+          name:
+              type: string
+          age:
+              type: int
+              lower: 20
+              upper: 100
+          salary:
+              type: int
+              lower: 500
+              upper: 10000
