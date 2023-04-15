@@ -18,7 +18,8 @@ API Endpoints
 
 The following API endpoints are available:
 
-Returns the noise added query results. Only COUNT,SUM aggregate queries are allowed. 
+Returns the noise added query results. Only COUNT,SUM aggregate queries are allowed.
+
 POST /get_dp_result
 body: {'query': str}
 
